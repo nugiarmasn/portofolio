@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengertian dan Instalasi Laravel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pengertian dan Instalasi Laravel</h1>
+
+        <h2>Pengertian Laravel</h2>
+        <p>
+            Laravel adalah framework PHP open-source yang dirancang untuk pengembangan aplikasi web dengan sintaks yang elegan dan ekspresif. Laravel menyediakan berbagai fitur seperti routing, ORM (Object-Relational Mapping), autentikasi, migrasi database, dan banyak lagi. Framework ini memudahkan developer untuk membangun aplikasi web yang aman, scalable, dan mudah dikelola.
+        </p>
+
+        <h2>Instalasi Laravel</h2>
+        <p>
+            Untuk menginstal Laravel, pastikan Anda telah menginstal <strong>Composer</strong> (dependency manager untuk PHP) dan <strong>PHP</strong> versi 7.3 atau lebih baru di sistem Anda. Berikut adalah langkah-langkah instalasi Laravel:
+        </p>
+
+        <h3>1. Install Composer</h3>
+        <p>
+            Jika Anda belum menginstal Composer, Anda dapat mengunduhnya dari <a href="https://getcomposer.org/" target="_blank">situs resmi Composer</a>.
+        </p>
+
+        <h3>2. Buat Proyek Laravel Baru</h3>
+        <p>
+            Buka terminal atau command prompt, lalu jalankan perintah berikut untuk membuat proyek Laravel baru:
+        </p>
+        <code>
+            composer create-project --prefer-dist laravel/laravel nama-proyek
+        </code>
+        <p>
+            Ganti <code>nama-proyek</code> dengan nama folder proyek Anda.
+        </p>
+
+        <h3>3. Menjalankan Server Development</h3>
+        <p>
+            Setelah proyek berhasil dibuat, masuk ke direktori proyek dan jalankan server development dengan perintah berikut:
+        </p>
+        <code>
+            cd nama-proyek<br>
+            php artisan serve
+        </code>
+        <p>
+            Server akan berjalan di <code>http://localhost:8000</code>. Buka browser dan akses alamat tersebut untuk melihat halaman default Laravel.
+        </p>
+
+        <h3>4. Konfigurasi Environment</h3>
+        <p>
+            Laravel menggunakan file <code>.env</code> untuk menyimpan konfigurasi environment. Pastikan Anda mengatur konfigurasi database dan lainnya sesuai kebutuhan proyek Anda.
+        </p>
+
+        <h2>Kesimpulan</h2>
+        <p>
+            Laravel adalah framework PHP yang powerful dan mudah digunakan untuk pengembangan aplikasi web modern. Dengan mengikuti langkah-langkah di atas, Anda dapat memulai proyek Laravel dengan cepat dan efisien.
+        </p>
+    </div>
+</body>
+</html>
